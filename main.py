@@ -13,7 +13,7 @@ def get_props(verb):
 			stem = verb[:-4]
 			pattern_num = 1
 		elif verb[-4:-3] in special_sym:
-			pattern_num = 2
+			pattern_num = 21
 	elif verb[-3:] in ['аны', 'яны']:
 		stem = verb[:-2]
 		group = 2
